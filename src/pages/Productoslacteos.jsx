@@ -12,14 +12,14 @@ function Productoslacteos() {
         <div className="hero-container-lacteos">
           <h4>Productos y Servicios</h4>
           <img
-            src="src/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-53.png"
+            src="src/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-53.png"
             alt="slogan"
             className="hero-slogan-lacteos"
           />
         </div>
         <div id="productos-lacteos-container">
           <img
-            src="src/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-70.png"
+            src="src/assets/PNG-ORIGIN-FOOD/ICONOS/ORIGIN-FOODS-70.png"
             alt="icono-carton-leche"
             className="icono-producto-lacteo"
           />
