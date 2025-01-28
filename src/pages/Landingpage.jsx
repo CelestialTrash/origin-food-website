@@ -1,9 +1,21 @@
 import React, { useEffect } from "react";
-import { useLocation, Link } from "react-router-dom"; // Se agregó la importación de Link
+import { useLocation, Link } from "react-router-dom";
 import "../pages/Landingpage.css";
 
-//MEDIA
-import fotoPrincipal from "/Users/aquileshr/Desktop/Programming/Projects/origin-food-website/src/assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-48.png"
+// IMPORTS DE IMÁGENES
+import ORIGIN_FOODS_55 from "../assets/PNG ORIGIN FOOD/ORIGIN-FOODS-55.png";
+import ORIGIN_FOODS_65 from "../assets/PNG ORIGIN FOOD/ORIGIN-FOODS-65.png";
+import ORIGIN_FOODS_61 from "../assets/PNG ORIGIN FOOD/ORIGIN-FOODS-61.png";
+import ORIGIN_FOODS_26 from "../assets/PNG ORIGIN FOOD/ORIGIN-FOODS-26.png";
+import ORIGIN_ICON from "../assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS.png";
+import ICON_01 from "../assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-01.png";
+import ICON_02 from "../assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-02.png";
+import ICON_03 from "../assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-03.png";
+import ICON_04 from "../assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-04.png";
+import ICON_23 from "../assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-23.png";
+import SECTION_63 from "../assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-63.png";
+import SECTION_62 from "../assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-62.png";
+import SECTION_64 from "../assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-64.png";
 
 function Landingpage() {
   const location = useLocation();
@@ -24,21 +36,21 @@ function Landingpage() {
       <section id="hero-section">
         <div className="hero-container">
           <img
-            src="src/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-55.png"
+            src={ORIGIN_FOODS_55}
             alt="slogan"
             className="hero-slogan"
           />
           <div className="icon-down-container">
             <img
-              src={fotoPrincipal}
-              alt=""
+              src={ORIGIN_ICON}
+              alt="icono"
               className="icon-down-hero-section"
             />
           </div>
         </div>
         <div id="quienes-somos-container">
           <img
-            src="src/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-65.png"
+            src={ORIGIN_FOODS_65}
             alt="quienes somos"
             className="quienes-somos-title"
           />
@@ -70,7 +82,7 @@ function Landingpage() {
       <section id="productos-servicios-section">
         <div className="productos-servicios-title">
           <img
-            src="src/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-61.png"
+            src={ORIGIN_FOODS_61}
             alt="productos-servicios"
           />
         </div>
@@ -78,21 +90,21 @@ function Landingpage() {
           <div className="products-card-container">
             <Link to="/productoslacteos">
               <img
-                src="src/assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-63.png"
+                src={SECTION_63}
                 alt=""
                 className="card"
               />
             </Link>
             <Link to="/granosleguminosos">
               <img
-                src="src/assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-62.png"
+                src={SECTION_62}
                 alt=""
                 className="card"
               />
             </Link>
             <Link to="/azucar">
               <img
-                src="src/assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-64.png"
+                src={SECTION_64}
                 alt=""
                 className="card"
               />
@@ -115,31 +127,15 @@ function Landingpage() {
       <section id="nuestro-valores-section">
         <div className="nuestros-valores-title">
           <img
-            src="src/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-26.png"
+            src={ORIGIN_FOODS_26}
             alt="Nuestros Valores"
           />
         </div>
         <div className="valores-container">
-          <img
-            src="src/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-01.png"
-            alt="Conexion"
-            className="valores-card"
-          />
-          <img
-            src="src/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-02.png"
-            alt="Seguridad"
-            className="valores-card"
-          />
-          <img
-            src="src/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-03.png"
-            alt="Compromiso"
-            className="valores-card"
-          />
-          <img
-            src="src/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-04.png"
-            alt="Efectividad"
-            className="valores-card"
-          />
+          <img src={ICON_01} alt="Conexion" className="valores-card" />
+          <img src={ICON_02} alt="Seguridad" className="valores-card" />
+          <img src={ICON_03} alt="Compromiso" className="valores-card" />
+          <img src={ICON_04} alt="Efectividad" className="valores-card" />
         </div>
       </section>
 
@@ -147,55 +143,24 @@ function Landingpage() {
       <section id="oficinas-section">
         <div className="oficinas-title">
           <img
-            src="src/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-23.png"
+            src={ICON_23}
             alt="oficina-icon"
           />
           <h1>OFICINAS</h1>
         </div>
-        <div className="oficinas-card-container">
-          <div className="oficina-panama-card">
-            <div className="card-info">
-              <div className="card-info-title">
-                <h1>OFICINA CENTRAL</h1>
-              </div>
-              <div className="card-info-text">
-                <p>
-                  123 Calle xx, Ciudad de Panamá, Panamá <br />
-                  Teléfono: +507 123-4567 <br />
-                  Email: contacto@originfoods.com
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="oficina-caracas-card">
-            <div className="card-info">
-              <div className="card-info-title">
-                <h1>OFICINA REGIONAL</h1>
-              </div>
-              <div className="card-info-text">
-                <p>
-                  456 Avenida xx, Caracas, Venezuela <br />
-                  Teléfono: +58 212-1234567 <br />
-                  Email: venezuela@originfoods.com
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
 
-      {/* CONTACTENOS SECTION */}
-<section id="contactenos-section">
-  <div>
-    <a
-      href="mailto:contacto@originfoods.com?subject=Consulta%20desde%20la%20página%20web"
-      className="contactenos-button"
-    >
-      Contáctenos
-    </a>
-  </div>
-</section>
-
+      {/* CONTACTENOS */}
+      <section id="contactenos-section">
+        <div>
+          <a
+            href="mailto:contacto@originfoods.com?subject=Consulta%20desde%20la%20página%20web"
+            className="contactenos-button"
+          >
+            Contáctenos
+          </a>
+        </div>
+      </section>
     </div>
   );
 }
