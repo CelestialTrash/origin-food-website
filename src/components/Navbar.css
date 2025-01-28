@@ -1,0 +1,73 @@
+#navbar-container {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    z-index: 999;
+    cursor: pointer;
+    
+    
+    
+}
+
+.logo-holder{
+    width: 20rem;
+    height: 14rem;
+    margin-left: 8rem;
+    display: flex; 
+    align-items: flex-end;
+    justify-content: center;
+    background-color: #016567;
+    z-index: 1000;
+    
+    img{
+        width: auto;
+        height: 5rem;
+        background-color: #016567;
+        
+    }
+}
+
+.links-container{
+    width:40rem ;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    font-size: 1rem;
+    font-family:"Montserrat";
+    font-style: normal;
+    font-weight: 600; 
+    z-index: 999;
+      
+   
+}
+
+.quienes-somos-botton {
+    background-color: #016567;
+    border-radius: 50px;
+    color: white;
+}
+
+
+.links-container p {
+    padding: 0.5rem 1rem; /* Para que se vea mejor con el efecto */
+    transition: transform 0.6s ease, box-shadow 0.8s ease;
+ /* Transiciones suaves */
+   
+    
+}
+
+.links-container p:hover {
+    transform: scale(1.05); /* Aumenta el tamaño ligeramente */
+}
+
+
+
+
+
+

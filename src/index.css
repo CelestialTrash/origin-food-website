@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+
+
+
+body {
+  font-family: 'Intro', 'Recoleta', sans-serif;
+  margin: 0rem;
+  min-width: 320px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+/* button:hover {
+  
+} */
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  
+  
+}
+
+
+/* INTRO TIPOGRAFIA */
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Black.otf') format('otf');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Bold.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Bold-Alt.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Bold-Caps.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Bold-Italic.otf') format('otf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Book.otf') format('otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Book-Alt.otf') format('otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Book-Caps.otf') format('otf');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Book-Italic.otf') format('otf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Light.otf') format('otf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Light-Alt.otf') format('otf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Light-Caps.otf') format('otf');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Light-Italic.otf') format('otf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Regular.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Regular-Alt.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Regular-Caps.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Intro';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/INTRO/Intro-Regular-Italic.otf') format('otf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+/* RECOLETA TIPOGRAFIA */
+
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/RECOLETA/Recoleta-Bold.ttf') format('ttf');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/RECOLETA/Recoleta-Regular.ttf') format('ttf');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Recoleta';
+  src: url('../assets/TIPOGRAFÍAS ORIGIN FOOD/RECOLETA/recoleta.ttf') format('ttf');
+  font-weight: 300; /* Light (o Normal si no especificas peso ligero) */
+  font-style: normal;
+}

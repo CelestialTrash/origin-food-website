@@ -1,0 +1,112 @@
+#hero-section-lacteos {
+  width: 98vw;
+  height: 100vw; /* Ajusta la altura según necesites */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url("src/assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-50.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -8rem;
+  
+}
+
+.hero-container-lacteos {
+  width: 100%;
+  height: 40%; /* Ajusta la altura según necesites */
+  margin-top: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  
+  
+  
+  
+  
+}
+
+.hero-slogan-lacteos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 30%;
+  top: 15rem;
+  
+}
+
+.icon-down-hero-section-lacteos {
+  width: auto;
+  height: 18%;
+  padding-right: 3rem;
+}
+
+#productos-lacteos-container {
+  height: 10%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15.5rem;
+ 
+
+ 
+  
+}
+.icono-producto-lacteo {
+  height: 150%;
+  
+}
+
+.title-productos-lacteos {
+  font-size: 2.4rem;
+}
+
+.text-productos-lacteos {
+  text-align: center;
+  font-size: 1.5rem;
+
+}
+
+.type-product-section {
+width: 100% ;
+height: 50% ;
+display: flex;
+flex-direction: column;
+gap: 50px;
+margin-top: -8rem;
+
+
+}
+
+.type-product-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card-product {
+  width: 84%;
+  height: 100%;
+  border: 1px solid #016567;
+  border-top-left-radius: 50px;
+  padding: 60px;
+  color:#016567;
+
+  h1 {
+    font-size: 2.8rem;
+  }
+
+  p{
+    font-size: 1.5rem;
+  }
+}
