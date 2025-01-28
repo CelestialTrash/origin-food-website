@@ -13,7 +13,7 @@ function Navbar() {
     <div id="navbar-container">
       <div className="logo-holder" onClick={() => navigate("/")}>
         <img
-          src="src/assets/LOGO ORIGIN FOODS/PNG/ORIGIN-FOODS-4.png"
+          src="src/assets/LOGO-ORIGIN-FOODS/PNG/ORIGIN-FOODS-4.png"
           alt="Logo-Origin-Foods"
           className="logo-clickable"
         />
