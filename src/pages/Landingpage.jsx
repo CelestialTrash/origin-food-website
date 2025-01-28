@@ -3,7 +3,7 @@ import { useLocation, Link } from "react-router-dom"; // Se agregó la importaci
 import "../pages/Landingpage.css";
 
 //MEDIA
-IMPORT 
+
 
 function Landingpage() {
   const location = useLocation();
