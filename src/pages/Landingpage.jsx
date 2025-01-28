@@ -3,7 +3,7 @@ import { useLocation, Link } from "react-router-dom"; // Se agregó la importaci
 import "../pages/Landingpage.css";
 
 //MEDIA
-import fotoPrincipal from "src/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-55.png"
+import fotoPrincipal from "/Users/aquileshr/Desktop/Programming/Projects/origin-food-website/src/assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-48.png"
 
 function Landingpage() {
   const location = useLocation();
