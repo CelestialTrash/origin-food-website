@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url("/assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-48.png");
+  background-image: url("public/assets/PNG-ORIGIN-FOOD/SECCIONES/ORIGIN-FOODS-48.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -271,7 +271,7 @@ margin-bottom: 2rem;
 }
 
 .oficina-panama-card {
-  background-image: url('/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-36.png');
+  background-image: url('public/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-36.png');
   background-size: contain; /* La imagen cubrirá el contenedor */
   background-position: center; /* Imagen centrada */
   background-repeat: no-repeat;
@@ -287,7 +287,7 @@ margin-bottom: 2rem;
 }
 
 .oficina-caracas-card{
-  background-image: url('/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-37.png');
+  background-image: url('public/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-37.png');
   background-size: contain; /* La imagen cubrirá el contenedor */
   background-position: center; /* Imagen centrada */
   background-repeat: no-repeat;
