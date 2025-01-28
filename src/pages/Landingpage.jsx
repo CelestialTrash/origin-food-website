@@ -2,6 +2,9 @@ import React, { useEffect } from "react";
 import { useLocation, Link } from "react-router-dom"; // Se agregó la importación de Link
 import "../pages/Landingpage.css";
 
+//MEDIA
+import fotoPrincipal from "src/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-55.png"
+
 function Landingpage() {
   const location = useLocation();
 
