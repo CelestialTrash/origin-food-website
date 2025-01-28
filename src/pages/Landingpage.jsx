@@ -24,7 +24,7 @@ function Landingpage() {
       <section id="hero-section">
         <div className="hero-container">
           <img
-            src="src/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-55.png"
+            src="public/assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-48.png"
             alt="slogan"
             className="hero-slogan"
           />
