@@ -30,7 +30,7 @@ function Landingpage() {
           />
           <div className="icon-down-container">
             <img
-              src="src/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS.png"
+              src={fotoPrincipal}
               alt=""
               className="icon-down-hero-section"
             />
