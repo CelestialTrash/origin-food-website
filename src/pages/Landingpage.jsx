@@ -24,13 +24,13 @@ function Landingpage() {
       <section id="hero-section">
         <div className="hero-container">
           <img
-            src="/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-55.png"
+            src="/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-55.png"
             alt="slogan"
             className="hero-slogan"
           />
           <div className="icon-down-container">
             <img
-              src="/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS.png"
+              src="/assets/PNG-ORIGIN-FOOD/ICONOS/ORIGIN-FOODS.png"
               alt=""
               className="icon-down-hero-section"
             />
@@ -38,7 +38,7 @@ function Landingpage() {
         </div>
         <div id="quienes-somos-container">
           <img
-            src="/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-65.png"
+            src="/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-65.png"
             alt="quienes somos"
             className="quienes-somos-title"
           />
@@ -70,7 +70,7 @@ function Landingpage() {
       <section id="productos-servicios-section">
         <div className="productos-servicios-title">
           <img
-            src="/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-61.png"
+            src="/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-61.png"
             alt="productos-servicios"
           />
         </div>
@@ -78,21 +78,21 @@ function Landingpage() {
           <div className="products-card-container">
             <Link to="/productoslacteos">
               <img
-                src="/assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-63.png"
+                src="/assets/PNG-ORIGIN-FOOD/SECCIONES/ORIGIN-FOODS-63.png"
                 alt=""
                 className="card"
               />
             </Link>
             <Link to="/granosleguminosos">
               <img
-                src="/assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-62.png"
+                src="/assets/PNG-ORIGIN-FOOD/SECCIONES/ORIGIN-FOODS-62.png"
                 alt=""
                 className="card"
               />
             </Link>
             <Link to="/azucar">
               <img
-                src="/assets/PNG ORIGIN FOOD/SECCIONES/ORIGIN-FOODS-64.png"
+                src="/assets/PNG-ORIGIN-FOOD/SECCIONES/ORIGIN-FOODS-64.png"
                 alt=""
                 className="card"
               />
@@ -115,28 +115,28 @@ function Landingpage() {
       <section id="nuestro-valores-section">
         <div className="nuestros-valores-title">
           <img
-            src="/assets/PNG ORIGIN FOOD/ORIGIN-FOODS-26.png"
+            src="/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-26.png"
             alt="Nuestros Valores"
           />
         </div>
         <div className="valores-container">
           <img
-            src="/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-01.png"
+            src="/assets/PNG-ORIGIN-FOOD/ICONOS/ORIGIN-FOODS-01.png"
             alt="Conexion"
             className="valores-card"
           />
           <img
-            src="/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-02.png"
+            src="/assets/PNG-ORIGIN-FOOD/ICONOS/ORIGIN-FOODS-02.png"
             alt="Seguridad"
             className="valores-card"
           />
           <img
-            src="/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-03.png"
+            src="/assets/PNG-ORIGIN-FOOD/ICONOS/ORIGIN-FOODS-03.png"
             alt="Compromiso"
             className="valores-card"
           />
           <img
-            src="/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-04.png"
+            src="/assets/PNG-ORIGIN-FOOD/ICONOS/ORIGIN-FOODS-04.png"
             alt="Efectividad"
             className="valores-card"
           />
@@ -147,7 +147,7 @@ function Landingpage() {
       <section id="oficinas-section">
         <div className="oficinas-title">
           <img
-            src="src/assets/PNG ORIGIN FOOD/ICONOS/ORIGIN-FOODS-23.png"
+            src="src/assets/PNG-ORIGIN-FOOD/ICONOS/ORIGIN-FOODS-23.png"
             alt="oficina-icon"
           />
           <h1>OFICINAS</h1>
