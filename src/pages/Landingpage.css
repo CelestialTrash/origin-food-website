@@ -1,4 +1,3 @@
-/* Landingpage.css */
 .landing-page-container {
   background-color: white;
   width: 100vw;
@@ -17,7 +16,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url("public/assets/PNG-ORIGIN-FOOD/SECCIONES/ORIGIN-FOODS-48.png");
+  background-image: url("/assets/PNG-ORIGIN-FOOD/SECCIONES/ORIGIN-FOODS-48.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -56,8 +55,8 @@
   height: 18%;
   padding-right: 3rem;
 }
+
 #quienes-somos-container {
-  
   height: 30%;
   width: 100%;
   display: flex;
@@ -88,14 +87,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #016567 ;
+  color: #016567;
   border-radius: 50px;
   font-size: 1.3rem;
   font-family: "Montserrat";
   font-weight: 800;
-  -webkit-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 24px 0px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
   transition: transform 0.6s ease, box-shadow 0.8s ease;
   margin-top: 1rem;
 }
@@ -104,15 +103,12 @@
   transform: scale(1.05);
 }
 
+/* PRODUCTOS Y SERVICIOS */
 
-/* PRODUCTOS Y SERVICIOS  */
-
-
-#productos-servicios-section{
+#productos-servicios-section {
   width: 100vw;
   height: 100%;
 }
-
 
 .productos-servicios-title {
   width: auto;
@@ -120,50 +116,44 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  img{
+  img {
     width: 50%;
     height: 10%;
   }
 }
 
-.products-container{
-  
-  width:100vw ;
-  height:60% ;
+.products-container {
+  width: 100vw;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.products-card-container{
+.products-card-container {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 90%;
-  height:100%;
-  img{
+  height: 100%;
+  img {
     width: 100%;
     height: 100%;
   }
   margin-top: 2rem;
   margin-bottom: 2rem;
-  
-
 }
 
 .card {
   background-color: transparent;
   transition: transform 0.6s ease, box-shadow 0.8s ease;
-
- 
 }
 
 .card:hover {
-  transform: scale(1.05)
+  transform: scale(1.05);
 }
 
 .productos-slogan {
-  
   color: #016567;
   font-size: 0.8rem;
   font-family: "Montserrat";
@@ -173,56 +163,47 @@
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-margin-bottom: 2rem;
-
+  margin-bottom: 2rem;
 }
 
-.figura{
+.figura {
   background-color: #016567;
   border-radius: 50px;
   font-size: 1.8rem;
   color: transparent;
 }
 
-
 #nuestro-valores-section {
   width: 100vw;
   height: auto;
-  
   background-color: #016567;
-  
   padding: 2rem;
 }
 
 .nuestros-valores-title {
-  
   width: 100vw;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  img{
+  img {
     padding-left: 1.7rem;
-    width:50% ;
-    height:10% ;
+    width: 50%;
+    height: 10%;
   }
-
-
 }
 
-.valores-container{
-  
+.valores-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
-  
+
   img {
-    width:20% ;
-    height:15% ;
+    width: 20%;
+    height: 15%;
   }
-  
 }
 
 .valores-card {
@@ -230,7 +211,7 @@ margin-bottom: 2rem;
 }
 
 .valores-card:hover {
-  transform: scale(1.05)
+  transform: scale(1.05);
 }
 
 #oficinas-section {
@@ -239,7 +220,6 @@ margin-bottom: 2rem;
 }
 
 .oficinas-title {
-  
   color: #016567;
   font-size: 1.2rem;
   font-weight: 900;
@@ -247,31 +227,27 @@ margin-bottom: 2rem;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  
 
-    img {
-      width:12% ;
-      height:auto ;
-    }
+  img {
+    width: 12%;
+    height: auto;
+  }
 
-    h1 {
-      padding-right: 6rem;
-    }
- 
-
+  h1 {
+    padding-right: 6rem;
+  }
 }
 
-.oficinas-card-container{
+.oficinas-card-container {
   width: 100vw;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 .oficina-panama-card {
-  background-image: url('public/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-36.png');
+  background-image: url("/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-36.png");
   background-size: contain; /* La imagen cubrirá el contenedor */
   background-position: center; /* Imagen centrada */
   background-repeat: no-repeat;
@@ -282,25 +258,22 @@ margin-bottom: 2rem;
   align-items: flex-end;
   flex-direction: column;
   justify-content: center;
-  
   font-size: 0.7rem;
 }
 
-.oficina-caracas-card{
-  background-image: url('public/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-37.png');
-  background-size: contain; /* La imagen cubrirá el contenedor */
-  background-position: center; /* Imagen centrada */
+.oficina-caracas-card {
+  background-image: url("/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-37.png");
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
-  width: 40%; /* Ocupa todo el ancho de la ventana */
-  height: 90vh; /* Altura más razonable */
+  width: 40%;
+  height: 90vh;
   color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
   font-size: 0.7rem;
-  
 }
 
 .card-info {
@@ -313,7 +286,6 @@ margin-bottom: 2rem;
 }
 
 .card-info-title {
-  
   width: 100%;
   height: 10%;
   color: #016567;
@@ -323,207 +295,42 @@ margin-bottom: 2rem;
   padding-left: 6.5rem;
 }
 
-.card-info-text{
+.card-info-text {
   width: 100%;
-  height:15rem ;
+  height: 15rem;
   font-size: 1.4rem;
   z-index: 5;
   padding-left: 7rem;
   text-align: left;
 }
-#contactenos-section{
-  
+
+#contactenos-section {
   width: 100vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
-.contactenos-button{
-height: 5rem;
-width: 20rem;
-display: flex;
-align-items: center;
-justify-content: center;
-color: rgb(255, 255, 255);
-background-color:#016567;
-border-radius: 50px;
-border: #016567 solid 1px;
-padding: 0.5rem 6.5rem;
-font-family: "Montserrat";
-font-size: 2.5rem;
--webkit-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 25px 0px rgba(0,0,0,0.75);
-transition: transform 0.6s ease, box-shadow 0.8s ease;
-margin-bottom: 3rem;
-
+.contactenos-button {
+  height: 5rem;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  background-color: #016567;
+  border-radius: 50px;
+  border: #016567 solid 1px;
+  padding: 0.5rem 6.5rem;
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  -webkit-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
+  transition: transform 0.6s ease, box-shadow 0.8s ease;
+  margin-bottom: 3rem;
 }
 
 .contactenos-button:hover {
-  transform: scale(1.05)
-
-}
-
-
-
-
-
-/* Media Queries para dispositivos móviles */
-@media (max-width: 768px) {
-  .landing-page-container {
-    padding: 10px; /* Añade espacio alrededor del contenido */
-  }
-
-  /* HERO SECTION */
-  #hero-section {
-    flex-direction: column; /* Apila los elementos verticalmente */
-    height: auto; /* Ajusta la altura automáticamente */
-    background-size: cover; /* La imagen cubre el contenedor */
-    background-position: center;
-    top: 0;
-    padding: 20px;
-  }
-
-  .hero-container {
-    flex-direction: column; /* Apila los elementos */
-    align-items: center;
-    margin-top: 5rem;
-    margin-left: 0;
-  }
-
-  .hero-slogan {
-    width: 90%; /* Escala la imagen */
-    height: auto;
-    margin-bottom: 20px;
-  }
-
-  .icon-down-container {
-    justify-content: center; /* Centra el ícono */
-  }
-
-  .icon-down-hero-section {
-    height: 50px;
-  }
-
-  /* QUIENES SOMOS SECTION */
-  #quienes-somos-container {
-    margin-top: 3rem;
-    padding: 10px;
-  }
-
-  #quienes-somos-container p {
-    width: 90%; /* Reduce el ancho del texto */
-    font-size: 1rem; /* Reduce el tamaño del texto */
-  }
-
-  .quienes-somos-title {
-    width: 80%; /* Escala la imagen */
-    margin-bottom: 20px;
-  }
-
-  .button-quienes-somos-section {
-    width: 80%; /* Botón más ancho */
-    height: auto; /* Ajusta la altura automáticamente */
-    font-size: 1.2rem; /* Tamaño del texto más pequeño */
-    padding: 10px 0;
-  }
-
-  /* PRODUCTOS Y SERVICIOS */
-  #productos-servicios-section {
-    padding: 20px;
-  }
-
-  .productos-servicios-title img {
-    width: 80%; /* Escala la imagen */
-    height: auto;
-  }
-
-  .products-container {
-    flex-direction: column; /* Apila las tarjetas */
-    align-items: center;
-    padding: 20px;
-  }
-
-  .products-card-container {
-    display: grid;
-    grid-template-columns: 1fr; /* Una tarjeta por fila */
-    gap: 20px; /* Espaciado entre tarjetas */
-  }
-
-  .productos-slogan {
-    font-size: 1rem; /* Reduce el tamaño del texto */
-    text-align: center; /* Centra el texto */
-    padding: 10px;
-  }
-
-  /* NUESTROS VALORES */
-  #nuestro-valores-section {
-    padding: 20px;
-  }
-
-  .valores-container {
-    flex-direction: column; /* Apila las tarjetas */
-    gap: 20px; /* Añade espaciado entre tarjetas */
-  }
-
-  .valores-container img {
-    width: 60%; /* Escala las imágenes */
-    height: auto;
-    margin-bottom: 10px;
-  }
-
-  /* OFICINAS */
-  #oficinas-section {
-    padding: 20px;
-  }
-
-  .oficinas-title img {
-    width: 50%; /* Escala el ícono */
-    height: auto;
-    margin-bottom: 10px;
-  }
-
-  .oficinas-card-container {
-    flex-direction: column; /* Apila las tarjetas */
-    gap: 20px; /* Espaciado entre tarjetas */
-  }
-
-  .oficina-panama-card,
-  .oficina-caracas-card {
-    width: 90%; /* Reduce el ancho */
-    height: auto; /* Ajusta la altura automáticamente */
-    background-size: cover; /* La imagen cubre el contenedor */
-  }
-
-  .card-info {
-    align-items: center; /* Centra el texto */
-    padding: 20px;
-  }
-
-  .card-info-title {
-    font-size: 1rem;
-    text-align: center;
-    padding: 10px;
-  }
-
-  .card-info-text {
-    font-size: 1rem;
-    text-align: center;
-    padding: 10px;
-  }
-
-  /* CONTACTENOS SECTION */
-  #contactenos-section {
-    padding: 20px;
-    flex-direction: column;
-  }
-
-  .contactenos-button {
-    width: 80%; /* Botón más ancho */
-    font-size: 1.5rem; /* Tamaño del texto más pequeño */
-    padding: 10px;
-    height: auto; /* Ajusta la altura automáticamente */
-  }
+  transform: scale(1.05);
 }
