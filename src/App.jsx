@@ -11,10 +11,10 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Landingpage />} />
-        <Route path="/productoslacteos" element={<Productoslacteos />} />
-        <Route path="/granosleguminosos" element={<Granosleguminosos />} />
-        <Route path="/azucar" element={<Azucar />} />
+        <Route path='/' element={<Landingpage />} />
+        <Route path='/productoslacteos' element={<Productoslacteos />} />
+        <Route path='/granosleguminosos' element={<Granosleguminosos />} />
+        <Route path='/azucar' element={<Azucar />} />
       </Routes>
     </>
   );

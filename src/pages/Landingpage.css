@@ -1,75 +1,122 @@
 .landing-page-container {
   background-color: white;
-  width: 100vw;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0rem 4rem;
   height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
-
+.separator {
+  height: 2px;
+  width: 100%;
+  background-color: #016567;
+  margin: 3rem 0rem;
+}
 #hero-section {
-  width: 98vw;
-  height: 100vw; /* Ajusta la altura según necesites */
+  background-color: #006d6e;
+  /* margin: 0rem 4rem; */
+  border-radius: 3rem;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  background-image: url("/assets/PNG-ORIGIN-FOOD/SECCIONES/ORIGIN-FOODS-48.png");
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   position: relative;
-  top: -6rem;
   border-bottom: #016567 1px solid;
 }
-
+.main-hero-img {
+  width: 100%;
+  max-width: fit-content;
+  /* border-radius: 3rem; */
+  box-sizing: border-box;
+}
 .hero-container {
-  width: 95%;
-  height: 40%; /* Ajusta la altura según necesites */
-  margin-top: 15rem;
-  margin-left: 4.2rem;
-
+  position: absolute;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .hero-slogan {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  /* display: flex; */
+  /* align-items: flex-start;
+  justify-content: flex-start; */
   width: auto;
-  height: 35%;
-  top: 15rem;
+  /* height: 35%; */
+  /* top: 15rem; */
+  color: #fff;
+  font-weight: bold;
+  margin: 2rem 4rem;
+  position: absolute;
+  left: 0rem;
+  top: 9.5rem;
+}
+.hero-slogan p {
+  font-size: 6.25rem;
+  line-height: 8rem;
+  margin: 0px;
+  padding: 0px;
+}
+.hero-slogan p:nth-child(2) {
+  margin: 0px;
+  padding: 0px 2rem;
 }
 
+.hero-slogan span {
+  border-radius: 4rem;
+  border: 1px solid #fff;
+  padding: 0.25rem 2rem;
+}
+.hero-div {
+  position: relative;
+}
 .icon-down-container {
   display: flex;
   align-items: flex-end;
+  background-color: red;
 }
 
 .icon-down-hero-section {
+  position: absolute;
+  bottom: 2.25rem;
+  right: 2.25rem;
   width: auto;
-  height: 18%;
-  padding-right: 3rem;
+  height: 8rem;
 }
 
 #quienes-somos-container {
-  height: 30%;
+  /* height: 30%; */
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  margin-top: 5.5rem;
+  padding: 0rem 10rem 5rem 10rem;
+  box-sizing: border-box;
 
   p {
-    width: 60%;
-    font-size: 1.5rem;
+    font-family: Montserrat !important;
+    width: 100%;
+    font-size: 1.75rem;
     text-align: center;
     font-family: "intro";
+    color: #fff;
+  }
+  .rounded-text {
+    font-family: intro !important;
+    border-radius: 4rem;
+    border: 1px solid #fff;
+    padding: 0.4rem 3.5rem 0.5rem 3.5rem;
+    width: fit-content;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    margin: 5.25rem 0rem 3rem 0rem;
   }
 }
 
@@ -80,8 +127,8 @@
 }
 
 .button-quienes-somos-section {
-  height: 8%;
-  width: 15%;
+  height: 3.5rem;
+  width: fit-content;
   background-color: white;
   border: 1px white solid;
   display: flex;
@@ -97,6 +144,7 @@
   box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.75);
   transition: transform 0.6s ease, box-shadow 0.8s ease;
   margin-top: 1rem;
+  padding: 0rem 3rem;
 }
 
 .button-quienes-somos-section:hover {
@@ -106,7 +154,8 @@
 /* PRODUCTOS Y SERVICIOS */
 
 #productos-servicios-section {
-  width: 100vw;
+  width: 100%;
+  box-sizing: border-box;
   height: 100%;
 }
 
@@ -116,6 +165,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 30px;
   img {
     width: 50%;
     height: 10%;
@@ -123,7 +173,7 @@
 }
 
 .products-container {
-  width: 100vw;
+  width: 100%;
   height: 60%;
   display: flex;
   align-items: center;
@@ -134,7 +184,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 90%;
+  width: 100%;
   height: 100%;
   img {
     width: 100%;
@@ -155,21 +205,26 @@
 
 .productos-slogan {
   color: #016567;
-  font-size: 0.8rem;
-  font-family: "Montserrat";
+  font-size: 1.2rem;
+  font-family: intro;
   font-weight: 900;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4.5rem;
+  align-items: center;
+  h1 {
+    font-size: 3rem;
+    font-weight: 900;
+  }
 }
 
 .figura {
   background-color: #016567;
   border-radius: 50px;
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   color: transparent;
 }
 
@@ -178,6 +233,7 @@
   height: auto;
   background-color: #016567;
   padding: 2rem;
+  padding-top: 3rem;
 }
 
 .nuestros-valores-title {
@@ -199,9 +255,11 @@
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  padding: 4rem 0rem;
+  gap: 8rem;
 
   img {
-    width: 20%;
+    width: 16rem;
     height: 15%;
   }
 }
@@ -215,13 +273,13 @@
 }
 
 #oficinas-section {
-  width: 100vw;
+  width: 100%;
   height: auto;
 }
 
 .oficinas-title {
   color: #016567;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 900;
   display: flex;
   flex-direction: row;
@@ -229,51 +287,46 @@
   align-items: center;
 
   img {
-    width: 12%;
-    height: auto;
+    height: 8rem;
   }
 
   h1 {
     padding-right: 6rem;
+    font-family: intro;
   }
 }
 
 .oficinas-card-container {
-  width: 100vw;
+  width: 100%;
   height: auto;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
-  justify-content: center;
+  gap: 2.5rem;
+  padding: 2rem;
 }
 
-.oficina-panama-card {
-  background-image: url("/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-36.png");
-  background-size: contain; /* La imagen cubrirá el contenedor */
-  background-position: center; /* Imagen centrada */
-  background-repeat: no-repeat;
-  width: 40%; /* Ocupa todo el ancho de la ventana */
-  height: 90vh; /* Altura más razonable */
-  color: black;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-  justify-content: center;
-  font-size: 0.7rem;
-}
-
-.oficina-caracas-card {
-  background-image: url("/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-37.png");
+.oficina-card {
+  /* background-image: url("/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-37.png");
   background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
-  width: 40%;
-  height: 90vh;
+  background-repeat: no-repeat; */
+  border: 2px solid #016567;
+  border-top-left-radius: 8rem;
+  overflow: hidden;
+  padding: 2rem;
+  /* width: 45%; */
+  flex: 1;
+
   color: black;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: 0.7rem;
+  img {
+    width: 60%;
+  }
 }
 
 .card-info {
@@ -281,56 +334,739 @@
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   flex-direction: column;
 }
 
 .card-info-title {
   width: 100%;
-  height: 10%;
+  /* height: 10%; */
+  font-family: Intro;
   color: #016567;
-  font-size: 0.9rem;
+  font-size: 0.75rem;
   z-index: 2;
   text-align: left;
-  padding-left: 6.5rem;
+  h1 {
+    font-weight: 900;
+  }
 }
 
 .card-info-text {
   width: 100%;
-  height: 15rem;
-  font-size: 1.4rem;
+  /* height: 15rem; */
+  color: #000;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
   z-index: 5;
-  padding-left: 7rem;
   text-align: left;
+  font-weight: 400;
+  margin-top: 1px;
+  p {
+    margin-top: 10px;
+    font-family: Montserrat;
+  }
+  a {
+    color: #000;
+    font-weight: inherit;
+  }
 }
 
 #contactenos-section {
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .contactenos-button {
-  height: 5rem;
-  width: 20rem;
+  height: 7.5rem;
+  width: 29rem;
   display: flex;
   align-items: center;
-  justify-content: center;
-  color: rgb(255, 255, 255);
-  background-color: #016567;
-  border-radius: 50px;
-  border: #016567 solid 1px;
-  padding: 0.5rem 6.5rem;
-  font-family: "Montserrat";
-  font-size: 2.5rem;
-  -webkit-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
+  justify-content: space-between;
+  color: #000;
+  background-color: #fff;
+  border-radius: 8rem;
+  border: #016567 solid 2px;
+  padding: 0.5rem 9.5rem 0.5rem 0rem;
+  margin-top: 4rem;
+  box-sizing: border-box;
+  /* -webkit-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.75); */
   transition: transform 0.6s ease, box-shadow 0.8s ease;
   margin-bottom: 3rem;
+  img {
+    height: 7.2rem;
+  }
+  span {
+    font-family: Intro;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-left: 2rem;
+  }
 }
 
 .contactenos-button:hover {
   transform: scale(1.05);
+}
+
+.footer {
+  display: flex;
+  gap: 8px;
+  height: 5rem;
+  flex-direction: row;
+  padding-bottom: 5rem;
+  padding-top: 3rem;
+  justify-content: space-between;
+  width: 100%;
+  .logo {
+    min-width: 40%;
+  }
+  img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .social-media {
+    display: flex;
+    gap: 8px;
+    height: 100%;
+    flex-grow: 1;
+    img {
+      width: 100%;
+      height: 100%;
+      min-width: 180px;
+    }
+  }
+  .empty-div {
+    display: flex;
+    flex-grow: 1;
+    background-color: #016567;
+    height: 100%;
+    width: 100%;
+    border-radius: 4rem;
+  }
+}
+
+@media (max-width: 1440px) {
+  .hero-slogan p {
+    font-size: 4.25rem;
+    line-height: 6rem;
+  }
+  .icon-down-hero-section {
+    bottom: 1.25rem;
+    right: 1.25rem;
+    height: 7rem;
+  }
+  #quienes-somos-container {
+    padding: 0rem 6rem 5rem 6rem;
+    p {
+      font-size: 1.4rem;
+    }
+    .rounded-text {
+      border-radius: 4rem;
+      padding: 0.5rem 3.5rem 0.75rem 3.5rem;
+      font-size: 3.25rem;
+      font-weight: 800;
+      color: #fff;
+      margin: 3.25rem 0rem 2rem 0rem;
+    }
+  }
+  .productos-slogan {
+    h1 {
+      font-size: 2.4rem;
+      line-height: 3rem;
+    }
+  }
+
+  .contactenos-button {
+    height: 5.5rem;
+    width: 35rem;
+    padding: 0.5rem 6.5rem 0.5rem 0rem;
+    margin-top: 2.5rem;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    img {
+      height: 5.2rem;
+    }
+    span {
+      font-size: 2.5rem;
+    }
+  }
+  .footer {
+    height: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    .logo {
+      min-width: 30%;
+    }
+    .social-media img {
+      min-width: 130px;
+    }
+  }
+  .valores-container {
+    gap: 2rem;
+    padding: 2rem;
+    img {
+      width: 16%;
+      height: 16%;
+    }
+  }
+}
+@media (max-width: 1366px) {
+  .oficina-card {
+    padding: 1.8rem;
+    height: 45rem;
+    img {
+      width: 24rem;
+    }
+  }
+  .footer {
+    height: 4.2rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+
+    .social-media img {
+      min-width: 120px;
+    }
+  }
+}
+@media (max-width: 1280px) {
+  .hero-slogan p {
+    font-size: 3.45rem;
+    line-height: 5rem;
+  }
+  .icon-down-hero-section {
+    bottom: 1.15rem;
+    right: 1.15rem;
+    height: 6.5rem;
+  }
+  #quienes-somos-container {
+    padding: 0rem 6rem 5rem 6rem;
+    p {
+      font-size: 1.2rem;
+    }
+    .rounded-text {
+      border-radius: 4rem;
+      padding: 0.5rem 3.5rem 0.75rem 3.5rem;
+      font-size: 3rem;
+      margin: 3rem 0rem 1.5rem 0rem;
+    }
+  }
+  .productos-slogan {
+    margin: 0rem 0rem 2rem 0rem;
+    h1 {
+      font-size: 2.2rem;
+      line-height: 2.8rem;
+    }
+    .figura {
+      font-size: 1.9rem;
+    }
+  }
+
+  .contactenos-button {
+    height: 5rem;
+    width: 35rem;
+    padding: 0.5rem 6.5rem 0.5rem 0rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    img {
+      height: 5rem;
+    }
+    span {
+      font-size: 2.5rem;
+    }
+  }
+  .footer {
+    height: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+
+    .social-media {
+      align-items: center;
+      justify-content: center;
+    }
+    .social-media .footer-icon-link {
+      height: 100%;
+      img {
+        min-width: 80px;
+      }
+    }
+  }
+  .oficinas-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+
+    img {
+      height: 6rem;
+    }
+
+    h1 {
+      padding-right: 6rem;
+    }
+  }
+
+  .oficinas-card-container {
+    gap: 2rem;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 2rem;
+  }
+
+  .oficina-card {
+    border-top-left-radius: 7rem;
+    overflow: hidden;
+    padding: 1.8rem;
+    height: 40rem;
+    img {
+      width: 24rem;
+    }
+  }
+
+  .card-info {
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-info-title {
+    font-size: 0.6rem;
+  }
+
+  .card-info-text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  html {
+    font-size: 12px;
+  }
+  .landing-page-container {
+    padding: 0rem 3rem;
+  }
+  #quienes-somos-container {
+    padding: 0rem 6rem 5rem 6rem;
+    p {
+      font-size: 1.45rem;
+    }
+    .rounded-text {
+      border-radius: 4rem;
+      padding: 0.5rem 3.5rem 0.75rem 3.5rem;
+      font-size: 3rem;
+      font-weight: 800;
+      color: #fff;
+      margin: 3.25rem 0rem 2rem 0rem;
+    }
+  }
+  .valores-container {
+    gap: 2rem;
+    padding: 2rem;
+    img {
+      width: 16%;
+      height: 16%;
+    }
+  }
+  .oficina-card {
+    height: 44rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-slogan {
+    top: 4rem;
+  }
+  .hero-slogan p {
+    font-size: 2.6rem;
+    line-height: 5rem;
+  }
+  .icon-down-hero-section {
+    bottom: 1rem;
+    right: 1rem;
+    height: 5rem;
+  }
+  #quienes-somos-container {
+    padding: 0rem 4rem 5rem 4rem;
+    p {
+      font-size: 1.4rem;
+    }
+    .rounded-text {
+      border-radius: 3rem;
+      padding: 0.4rem 3rem 0.6rem 3rem;
+      font-size: 2.5rem;
+      margin: 3rem 0rem 1.5rem 0rem;
+    }
+  }
+  .footer {
+    flex-direction: column;
+
+    height: 3rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+    .empty-div {
+      height: 3rem;
+      width: 16rem;
+      border-radius: 4rem;
+    }
+  }
+  .oficinas-card-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0rem 1.5rem;
+  }
+  .oficina-card {
+    border-top-left-radius: 7rem;
+    overflow: hidden;
+    padding: 1.2rem;
+    height: fit-content;
+    min-height: 37rem;
+    img {
+      width: 20rem;
+    }
+  }
+  .card-info-title {
+    font-size: 0.65rem;
+    h1 {
+      margin-bottom: 1rem;
+    }
+  }
+  .card-info-text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .contactenos-button {
+    height: 4rem;
+    width: 25rem;
+    padding: 0.5rem 5rem 0.5rem 0rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    img {
+      height: 4rem;
+    }
+    span {
+      font-size: 1.8rem;
+    }
+  }
+  .productos-slogan {
+    margin: 0rem 0rem 2rem 0rem;
+    h1 {
+      font-size: 2rem;
+      line-height: 2.6rem;
+    }
+    .figura {
+      font-size: 1.8rem;
+    }
+  }
+  .oficinas-title {
+    font-size: 1rem;
+    font-weight: 700;
+
+    img {
+      height: 5rem;
+    }
+
+    h1 {
+      padding-right: 4rem;
+    }
+  }
+  .valores-container {
+    gap: 1rem;
+    img {
+      width: 18%;
+      height: 16%;
+    }
+  }
+}
+@media (max-width: 620px) {
+  .hero-slogan {
+    top: 3.5rem;
+    p {
+      font-size: 2.2rem;
+      line-height: 4rem;
+    }
+  }
+}
+@media (min-width: 481px) and (max-width: 600px) {
+  /* Styles for standard phones */
+  .landing-page-container {
+    padding: 0rem 1.5rem;
+  }
+  .hero-slogan {
+    margin: 0rem 2rem;
+    top: 5rem;
+  }
+  .hero-slogan p {
+    font-size: 1.6rem;
+    line-height: 3rem;
+  }
+  .icon-down-hero-section {
+    bottom: 1rem;
+    right: 1rem;
+    height: 4rem;
+  }
+  #quienes-somos-container {
+    padding: 0rem 3rem 5rem 3rem;
+    p {
+      font-size: 1.4rem;
+    }
+    .rounded-text {
+      border-radius: 3rem;
+      padding: 0.4rem 3rem 0.6rem 3rem;
+      font-size: 2.5rem;
+      margin: 2rem 0rem 0.5rem 0rem;
+    }
+  }
+  .productos-slogan {
+    margin: 0rem 0rem 1.5rem 0rem;
+    h1 {
+      font-size: 1.6rem;
+      line-height: 2.6rem;
+    }
+    .figura {
+      font-size: 1.6rem;
+    }
+  }
+  .valores-container {
+    img {
+      width: 25%;
+      height: 16%;
+    }
+  }
+  .oficinas-card-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0%;
+  }
+  .oficina-card {
+    border-top-left-radius: 5rem;
+    overflow: hidden;
+    padding: 1rem;
+    height: 35rem;
+    img {
+      width: 16rem;
+    }
+  }
+  .card-info-title {
+    font-size: 0.5rem;
+    h1 {
+      margin-bottom: 0rem;
+    }
+  }
+  .card-info-text {
+    font-size: 1.1rem;
+    line-height: 2.1rem;
+  }
+  .footer {
+    flex-direction: column;
+
+    height: 2.5rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+
+    .empty-div {
+      height: 2.5rem;
+      width: 6rem;
+    }
+  }
+  .contactenos-button {
+    height: 3.6rem;
+    width: 22rem;
+    padding: 0.5rem 5rem 0.5rem 0rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    img {
+      height: 3.6rem;
+    }
+    span {
+      font-size: 1.7rem;
+    }
+  }
+  .oficinas-title {
+    font-size: 0.8rem;
+    font-weight: 700;
+
+    img {
+      height: 4rem;
+    }
+
+    h1 {
+      padding-right: 0rem;
+    }
+  }
+  .button-quienes-somos-section {
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  .productos-servicios-title {
+    img {
+      width: 70%;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    flex-direction: column;
+    height: 2.2rem;
+    padding-top: 1rem;
+    justify-content: space-between;
+    width: 100%;
+    .social-media .footer-icon-link {
+      img {
+        min-width: 60px;
+      }
+    }
+    /* gap:1rem;  */
+    .empty-div {
+      display: none;
+    }
+  }
+  .contactenos-button {
+    height: 3.2rem;
+    width: 20rem;
+    padding: 0.5rem 5rem 0.5rem 0rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2rem;
+    img {
+      height: 3.2rem;
+    }
+    span {
+      font-size: 1.4rem;
+    }
+  }
+  .oficinas-card-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1.5rem;
+    padding: 0%;
+  }
+  .oficina-card {
+    border-top-left-radius: 4rem;
+    overflow: hidden;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    height: 35rem;
+    img {
+      width: 16rem;
+    }
+  }
+  .card-info-text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  .card-info-title {
+    h1 {
+      margin-bottom: 0rem;
+    }
+  }
+  .valores-container {
+    gap: 1rem;
+    padding-top: 2rem;
+    img {
+      width: 18%;
+    }
+  }
+  .productos-slogan {
+    margin: 0rem 0rem 1.5rem 0rem;
+    overflow: hidden;
+    h1 {
+      font-size: 1.2rem;
+      line-height: 2.2rem;
+    }
+    .figura {
+      font-size: 1.4rem;
+      max-width: 2rem;
+      overflow: hidden;
+    }
+  }
+  .hero-slogan p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .hero-slogan {
+    margin: 2rem 2rem;
+    position: absolute;
+    left: 0rem;
+    top: 3rem;
+  }
+  .hero-slogan span {
+    border-radius: 3rem;
+    border: 1px solid #fff;
+    padding: 0.25rem 1rem;
+  }
+  .hero-slogan p:nth-child(2) {
+    padding: 0px 1rem;
+  }
+  .icon-down-hero-section {
+    bottom: 0.7rem;
+    right: 0.7rem;
+    height: 3.5rem;
+  }
+  #quienes-somos-container {
+    padding: 0rem 2rem 2.5rem 2rem;
+    p {
+      font-size: 1.2rem;
+    }
+    .rounded-text {
+      border-radius: 2.5rem;
+      padding: 0.3rem 1rem 0.4rem 1rem;
+      font-size: 2rem;
+      margin: 2rem 0rem 0.5rem 0rem;
+    }
+  }
+  .productos-servicios-title {
+    img {
+      width: 90%;
+    }
+  }
+  .separator {
+    margin: 2rem 0rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .footer {
+    .social-media .footer-icon-link {
+      img {
+        min-width: 50px;
+      }
+    }
+  }
+  .landing-page-container {
+    padding: 0rem 1.2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    font-size: 10px;
+  }
+  .landing-page-container {
+    padding: 0rem 1rem;
+  }
+  .oficinas-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    img {
+      height: 4.5rem;
+    }
+  }
+  .valores-container {
+    gap: 1.8rem;
+    padding: 2rem 0rem;
+  }
 }

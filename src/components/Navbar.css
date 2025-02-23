@@ -1,73 +1,226 @@
 #navbar-container {
-    width: 100vw;
-    height: 10vh;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    z-index: 999;
-    cursor: pointer;
-    
-    
-    
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: white;
+  z-index: 999;
+  cursor: pointer;
+  padding: 0rem 3.5rem;
 }
 
-.logo-holder{
-    width: 20rem;
-    height: 14rem;
-    margin-left: 8rem;
-    display: flex; 
-    align-items: flex-end;
-    justify-content: center;
+.logo-holder {
+  position: absolute;
+  left: 0px;
+  width: 20rem;
+  height: 16rem;
+  left: 7.5rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: #016567;
+  z-index: 1000;
+
+  img {
+    width: auto;
+    width: 18rem;
+    margin-bottom: 0.75rem;
     background-color: #016567;
-    z-index: 1000;
-    
-    img{
-        width: auto;
-        height: 5rem;
-        background-color: #016567;
-        
-    }
+  }
 }
 
-.links-container{
-    width:40rem ;
-    padding-right: 2rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    color: black;
-    font-size: 1rem;
-    font-family:"Montserrat";
-    font-style: normal;
-    font-weight: 600; 
-    z-index: 999;
-      
-   
+.links-container {
+  /* width:40rem ; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  /* justify-content: space-around; */
+  color: black;
+  font-size: 1rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  z-index: 999;
 }
 
-.quienes-somos-botton {
-    background-color: #016567;
-    border-radius: 50px;
-    color: white;
+.active-link {
+  background-color: #016567;
+  border-radius: 50px;
+  color: white;
 }
-
 
 .links-container p {
-    padding: 0.5rem 1rem; /* Para que se vea mejor con el efecto */
-    transition: transform 0.6s ease, box-shadow 0.8s ease;
- /* Transiciones suaves */
-   
-    
+  padding: 0.6rem 1.5rem; /* Para que se vea mejor con el efecto */
+  transition: transform 0.6s ease, box-shadow 0.8s ease;
+  /* Transiciones suaves */
+  font-weight: 700;
+}
+
+.links-container p:nth-child(4) {
+  padding-right: 0px !important;
 }
 
 .links-container p:hover {
-    transform: scale(1.05); /* Aumenta el tamaño ligeramente */
+  transform: scale(1.05); /* Aumenta el tamaño ligeramente */
+}
+/* .mobile-nav button{
+    border:2px solid #016567;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #016567;
+    font-size:1.5rem;
+  } */
+@media (max-width: 1440px) {
+  .logo-holder {
+    left: 0px;
+    width: 20rem;
+    height: 16rem;
+    left: 8rem;
+    img {
+      width: auto;
+      width: 18rem;
+      margin-bottom: 0.75rem;
+      background-color: #016567;
+    }
+  }
+  .links-container {
+    gap: 1rem;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 1280px) {
+  .links-container {
+    gap: 0rem;
+    font-size: 0.8rem;
+  }
+  .links-container p {
+    padding: 0.5rem 1.2rem;
+  }
 }
 
+@media (max-width: 960px) {
+  .links-container {
+    gap: 0rem;
+    font-size: 0.9rem;
+  }
+  .logo-holder {
+    left: 0px;
+    width: 18rem;
+    height: 16rem;
+    left: 7rem;
+    img {
+      width: auto;
+      width: 16rem;
+      margin-bottom: 0.5rem;
+      background-color: #016567;
+    }
+  }
+  .links-container p {
+    padding: 0.6rem 1rem;
+  }
 
-
-
-
-
+  #navbar-container {
+    height: 5rem;
+  }
+}
+@media (max-width: 768px) {
+  .logo-holder {
+    width: 15rem;
+    height: 15rem;
+    left: 7rem;
+    img {
+      width: auto;
+      width: 14rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
+@media (max-width: 710px) {
+  .logo-holder {
+    width: 14rem;
+    height: 14rem;
+    left: 7rem;
+    img {
+      width: 13rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+  .links-container p {
+    padding: 0.5rem 0.75rem;
+  }
+}
+@media (max-width: 670px) {
+  .logo-holder {
+    width: 13rem;
+    height: 13rem;
+    left: 5rem;
+    img {
+      width: 12rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+  .links-container p {
+    padding: 0.5rem 0.6rem;
+  }
+}
+@media (max-width: 620px) {
+  .hamburger-icon {
+    color: #016567;
+    font-size: 2rem;
+    background-color: transparent;
+    border: 0;
+  }
+  .side-drawer {
+    background-color: #666e;
+    z-index: 100000;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100vh;
+    padding: 1rem 3rem;
+    color: #fff;
+    font-size: 1.4rem;
+    .close-div {
+      position: relative;
+    }
+    .close-icon {
+      position: absolute;
+      right: 5rem;
+      top: 1.5rem;
+      background-color: #fff;
+      font-size: 1.8rem;
+      color: #c30000;
+      border: 1px solid #c30000;
+      width: 2.5rem;
+      border-radius: 100%;
+    }
+    .drawer-links {
+      p {
+        background-color: #016567;
+        width: 60%;
+        padding: 0.2rem 2rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+@media (max-width: 481px) {
+  .logo-holder {
+    left: 0px;
+    width: 10rem;
+    height: 12rem;
+    left: 4rem;
+    /* background-color: transparent; */
+    img {
+      width: auto;
+      width: 10rem;
+      margin-bottom: 0.25rem;
+      background-color: #016567;
+    }
+  }
+}

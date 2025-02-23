@@ -7,33 +7,33 @@ function Azucar() {
   }, []);
 
   return (
-    <>
-      <section id="hero-section-azucar">
-        <div className="hero-container-lacteos">
-          <h4>Productos y Servicios</h4>
-          <img
-            src="/assets/PNG-ORIGIN-FOOD/ORIGIN-FOODS-52.png"
-            alt="slogan"
-            className="hero-slogan-lacteos"
-          />
+    <div className='product-page-container'>
+      <section id='hero-section'>
+        <div className='hero-div'>
+          <img src='/assets/azucar.webp' className='main-hero-img' />
         </div>
-        <div id="productos-lacteos-container">
-          <img
-            src="/assets/PNG-ORIGIN-FOOD/ICONOS/ORIGIN-FOODS-69.png"
-            alt="icono-carton-leche"
-            className="icono-producto-lacteo"
-          />
-          <h1 className="title-productos-lacteos">Azucar</h1>
-          <p className="text-productos-lacteos">
-            Mercoamerica es representante para Venezuela de Interfood BV, <br />{" "}
-            una empresa Holandesa productora y comercializadora de <br />{" "}
-            productos lácteos de alta calidad.
+
+        <div className='product-hero-container'>
+          <div className='center-slogan'>
+            <p className='title'>Productos y Servicios</p>
+            <p className='rounded-text'>Azúcar</p>
+          </div>
+        </div>
+        <div className='hero-footer-container'>
+          <img src='/assets/light-azucar.png' />
+          <p className='title'>Productos de Azúcar</p>
+          <p className='text'>
+            Nos especializamos en la importación y distribución de una amplia
+            variedad de productos de azúcar refinada y sin refinar para diversas
+            industrias.<br></br>
+            Trabajamos con los mejores proveedores a nivel mundial, asegurando
+            calidad y tiempos de despacho eficientes.
           </p>
         </div>
       </section>
-      <section className="type-product-section">
-        <div className="type-product-container">
-          <div className="card-product">
+      <section className='type-product-section'>
+        <div className='type-product-container'>
+          <div className='card-product'>
             <h1>Azúcar Refinada</h1>
             <p>
               Azúcar blanca refinada de alta pureza, ideal para repostería,
@@ -41,55 +41,44 @@ function Azucar() {
             </p>
           </div>
         </div>
-        <div className="type-product-container">
-          <div className="card-product">
+        <div className='type-product-container'>
+          <div className='card-product'>
             <h1>Azúcar Morena</h1>
             <p>
-              Azúcar morena natural, perfecta para la producción de
-              alimentos y bebidas que requieren un sabor caramelizado.
+              Azúcar morena natural, perfecta para la producción de alimentos y
+              bebidas que requieren un sabor caramelizado.
             </p>
           </div>
         </div>
-        <div className="type-product-container">
-          <div className="card-product">
+        <div className='type-product-container'>
+          <div className='card-product'>
             <h1>Azúcar Orgánica</h1>
             <p>
-              Azúcar orgánica producida de manera sostenible,
-              con certificación de comercio justo y orgánico.
+              Azúcar orgánica producida de manera sostenible, con certificación
+              de comercio justo y orgánico.
             </p>
           </div>
         </div>
-        <div className="type-product-container">
-          <div className="card-product">
+        <div className='type-product-container'>
+          <div className='card-product'>
             <h1>Azúcar Líquida</h1>
             <p>
-              Soluciones de azúcar líquida para la industria alimentaria,
-              con opciones de diferentes grados de concentración.
+              Soluciones de azúcar líquida para la industria alimentaria, con
+              opciones de diferentes grados de concentración.
             </p>
           </div>
         </div>
-        <div className="type-product-container">
-          <div className="card-product">
+        <div className='type-product-container'>
+          <div className='card-product'>
             <h1>Azúcar en Polvo</h1>
             <p>
-              Azúcar en polvo, ideal para repostería, confitería y
-              decoraciones finas en productos de panadería.
+              Azúcar en polvo, ideal para repostería, confitería y decoraciones
+              finas en productos de panadería.
             </p>
           </div>
         </div>
       </section>
-      {/* CONTACTENOS SECTION */}
-      <section id="contactenos-section">
-  <div>
-    <a
-      href="mailto:contacto@originfoods.com?subject=Consulta%20desde%20la%20página%20web"
-      className="contactenos-button"
-    >
-      Contáctenos
-    </a>
-  </div>
-</section>
-    </>
+    </div>
   );
 }
 
