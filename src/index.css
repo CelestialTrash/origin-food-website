@@ -22,12 +22,12 @@
   font-style: normal;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Intro";
   src: url("./fonts/INTRO/Intro-Bold-Caps.otf") format("opentype");
   font-weight: 700;
   font-style: normal;
-}
+} */
 
 @font-face {
   font-family: "Intro";

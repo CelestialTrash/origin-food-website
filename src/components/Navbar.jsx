@@ -34,12 +34,14 @@ function Navbar() {
   }, []); // Empty dependency array ensures it only runs once on mount
   return (
     <div id='navbar-container'>
-      <div className='logo-holder' onClick={() => navigate("/")}>
-        <img
-          src='/assets/LOGO-ORIGIN-FOODS/PNG/ORIGIN-FOODS-4.png'
-          alt='Logo-Origin-Foods'
-          className='logo-clickable'
-        />
+      <div className='logo-container'>
+        <div className='logo-holder' onClick={() => navigate("/")}>
+          <img
+            src='/assets/LOGO-ORIGIN-FOODS/PNG/ORIGIN-FOODS-4.png'
+            alt='Logo-Origin-Foods'
+            className='logo-clickable'
+          />
+        </div>
       </div>
       {/* Desktop Navigation */}
       {width > 620 ? (

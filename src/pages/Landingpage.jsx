@@ -94,18 +94,18 @@ function Landingpage() {
             alt=''
             className='icon-down-hero-section'
           />
-        </div>
-
-        <div className='hero-container'>
-          <div className='hero-slogan'>
-            <p>
-              <span>Nutriendo</span> el mundo,
-            </p>
-            <p>
-              cultivando <span>confianza.</span>
-            </p>
+          <div className='hero-container'>
+            <div className='hero-slogan'>
+              <p>
+                <span>Nutriendo</span> el mundo,
+              </p>
+              <p>
+                cultivando <span>confianza.</span>
+              </p>
+            </div>
           </div>
         </div>
+
         <div id='quienes-somos-container'>
           <p className='rounded-text'>¿QUIÉNES SOMOS?</p>
           <p>
