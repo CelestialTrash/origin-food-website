@@ -594,6 +594,7 @@ body {
     }
   }
   .footer {
+    align: center;
     height: 3rem;
     padding-bottom: 4rem;
     padding-top: 2rem;
@@ -605,7 +606,6 @@ body {
     .social-media .footer-icon-link {
       height: 100%;
       img {
-        align: center;
         min-width: 80px;
       }
     }
