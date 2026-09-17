@@ -605,6 +605,7 @@ body {
     .social-media .footer-icon-link {
       height: 100%;
       img {
+        align: center;
         min-width: 80px;
       }
     }
