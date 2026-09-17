@@ -45,14 +45,14 @@ const locations = [
     h1: "OFICINA CENTRAL",
     p: ` Plaza Credicorp Bank, Piso 26, Avenida Nicanor de Obarrio, Calle 50, Ciudad de Panamá, República de Panamá.<br/>
                   Teléfono: <a href="tel:+507-123-4567">+507 123-4567</a> <br />
-                  Email: <a href="mailto:contacto@originfoods.com">contacto@originfoods.com</a>`,
+                  Email: <a href="mailto:info@originfoods.com.pa">info@originfoods.com.pa</a>`,
   },
   {
     src: "assets/PNG-ORIGIN-FOOD/caracas.png",
     h1: "OFICINA REGIONAL",
     p: `Av. El Bosque con Av. Santa Lucia, Calle Santa Isabel, Edificio Credicard, Piso 2 Oficina 26, Caracas, Venezuela.<br/>
                   Teléfono: <a href="tel:+507-123-4567">+58 212-1234567</a> <br />
-                  Email: <a href="mailto:venezuela@originfoods.com">venezuela@originfoods.com</a>`,
+                  Email: <a href="mailto:info@originfoods.com.pa">info@originfoods.com.pa</a>`,
   },
 ];
 
@@ -223,7 +223,7 @@ function Landingpage() {
                 <p>
                   123 Calle xx, Ciudad de Panamá, Panamá <br />
                   Teléfono: +507 123-4567 <br />
-                  Email: contacto@originfoods.com
+                  Email: info@originfoods.com.pa
                 </p>
               </div>
             </div>
@@ -238,7 +238,7 @@ function Landingpage() {
                 <p>
                   456 Avenida xx, Caracas, Venezuela <br />
                   Teléfono: +58 212-1234567 <br />
-                  Email: venezuela@originfoods.com
+                  Email: info@originfoods.com.pa
                 </p>
               </div>
             </div>
@@ -250,7 +250,7 @@ function Landingpage() {
       <section id='contactenos-section'>
         <div>
           <a
-            href='mailto:contacto@originfoods.com?subject=Consulta%20desde%20la%20página%20web'
+            href='mailto:info@originfoods.com.pa?subject=Consulta%20desde%20la%20página%20web'
             className='contactenos-button'
           >
             <img src='assets/PNG-ORIGIN-FOOD/ICONOS/ORIGIN-FOODS-29.png' />
