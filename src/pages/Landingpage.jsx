@@ -50,7 +50,7 @@ const locations = [
   {
     src: "assets/PNG-ORIGIN-FOOD/caracas.png",
     h1: "OFICINA REGIONAL",
-    p: `456 Avenida xx, Caracas, Venezuela <br />
+    p: `Av. El Bosque con Av. Santa Lucia, Calle Santa Isabel, Edificio Credicard, Piso 2 Oficina 26, Caracas, Venezuela.  <br />
                   Teléfono: <a href="tel:+507-123-4567">+58 212-1234567</a> <br />
                   Email: <a href="mailto:venezuela@originfoods.com">venezuela@originfoods.com</a>`,
   },
