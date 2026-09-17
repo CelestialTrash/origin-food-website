@@ -288,7 +288,7 @@ function Landingpage() {
           </a>
           {width > 768 ? <div className='empty-div'></div> : null}
         </div>
-        {/* </div> */} */}
+        {/* </div> */}
       </section>
     </div>
   );
